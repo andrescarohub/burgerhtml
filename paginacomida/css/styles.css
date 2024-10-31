@@ -29,6 +29,13 @@ body {
     width: 35vw;
     left: 39vw;
     position: relative;
+
+}
+.burrito{
+    width: 35vw;
+    right: 10vw;
+    position: relative;
+
 }
 .navbar ul {
     list-style: none;
@@ -58,7 +65,21 @@ body {
 }
 
 .about, .services, .quality {
-    background-color: #1a1b4b;
+    
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.5rem 1.5rem;
+        background-color: #ff6f3c;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.3s ease; /* Efecto de transición suave */
+    
+    
+    
+    
+}
+button:hover {
+    background-color: #ffa500; /* Cambia a naranja al pasar el cursor */
 }
 
 .button {
@@ -79,9 +100,13 @@ body {
     width: 200px;
     text-align: center;
 }
+.homequal{
+    background-color: #fff;
+    
+}
 
 .service-card img {
-    width: 100px;
+    width: 100p;
     height: 100px;
 }
 
@@ -105,3 +130,4 @@ body {
     display: inline-block;
     margin: 0 0.5rem;
 }
+
